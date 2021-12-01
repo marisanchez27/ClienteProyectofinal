@@ -47,7 +47,7 @@ export default function MenuTop() {
       })}
 
       <SocialLinks />
-      <Link to="/admin">ADMIN</Link>
+      
     </Menu>
   );
 }

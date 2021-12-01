@@ -83,6 +83,7 @@ export default function HomeCourses() {
         <Link to="/courses">
           <Button>Ver más</Button>
         </Link>
+        <Link to="/admin">ADMIN</Link>
       </Col>
     </Row>
   );
