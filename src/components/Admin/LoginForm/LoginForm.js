@@ -25,7 +25,7 @@ export default function LoginForm() {
 
     if (result.message) {
       notification["error"]({
-        message: result.message
+        message: result.message,
       });
     } else {
       const { accessToken, refreshToken } = result;
@@ -36,7 +36,7 @@ export default function LoginForm() {
         message: "Login correcto.",
       });
 
-      window.location.href = "/admin";
+      window.location.href = "#/admin";
     }
   };
 
