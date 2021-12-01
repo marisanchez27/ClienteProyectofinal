@@ -1,4 +1,4 @@
-
+/* eslint-disable no-multi-str */
 
 import React, { useState, useEffect } from "react";
 import {
@@ -152,9 +152,9 @@ function AddEditForm(props) {
           ],
           toolbar:
             
-            "undo redo | formatselect | bold italic backcolor | \
-             alignleft aligncenter alignright alignjustify | \
-             bullist numlist outdent indent | removeformat | help"
+          "undo redo | formatselect | bold italic backcolor | \
+          alignleft aligncenter alignright alignjustify | \
+          bullist numlist outdent indent | removeformat | help"
         }}
         onBlur={e =>
           setPostData({ ...postData, description: e.target.getContent() })

@@ -2,7 +2,6 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import { Layout, Menu } from "antd";
 import {
-  HomeOutlined,
   UserOutlined,
   MenuOutlined,
   BookOutlined,
@@ -22,12 +21,6 @@ function MenuSider(props) {
         mode="inline"
         defaultSelectedKeys={[location.pathname]}
       >
-        {/* <Menu.Item key="/admin">
-          <Link to={"/admin"}>
-            <HomeOutlined />
-            <span className="nav-text">Home</span>
-          </Link>
-        </Menu.Item> */}
 
         <Menu.Item key="/admin/users">
           <Link to={"/admin/users"}>
