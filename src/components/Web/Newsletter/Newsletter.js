@@ -35,7 +35,7 @@ export default function Newsletter() {
 
   return (
     <div className="newsletter">
-      <h3>Newsletter</h3>
+      <h3>Email</h3>
       <Form onFinish={onSubmit}>
         <Form.Item>
           <Input

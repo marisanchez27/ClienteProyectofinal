@@ -3,7 +3,7 @@ import { Menu } from "antd";
 import { Link } from "react-router-dom";
 import SocialLinks from "../SocialLinks";
 import { getMenuApi } from "../../../api/menu";
-import frikis from "../../../assets/img/jpg/frikis.jpg";
+import frikis from "../../../assets/img/png/LOGOFREAKY.png";
 
 import "./MenuTop.scss";
 

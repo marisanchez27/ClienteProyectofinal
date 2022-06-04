@@ -1,5 +1,5 @@
 import React from "react";
-import MariLogo from "../../../../assets/img/jpg/logok.jpg";
+import MariLogo from "../../../../assets/img/png/LOGOFREAKY.png";
 
 import "./PresentationCourses.scss";
 

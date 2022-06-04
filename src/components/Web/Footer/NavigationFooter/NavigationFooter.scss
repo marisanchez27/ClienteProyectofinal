@@ -1,6 +1,11 @@
 @import "../../../../scss/index.scss";
 
 .navigation-footer {
+
+  .renderleft{
+    margin-left:-90px;
+  }
+
   h3 {
     color: $font-light;
     font-weight: bold;
