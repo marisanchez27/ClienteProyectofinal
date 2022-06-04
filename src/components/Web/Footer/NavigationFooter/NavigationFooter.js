@@ -33,9 +33,12 @@ export default function NavigationFooter() {
 
 function RenderListLeft() {
   return (
+    <Row className="renderleft">
     <ul>
       <li>
         <a href="#">
+          <br></br>
+          <br></br>
         < GiftOutlined />Obsequios
         </a>
       </li>
@@ -55,6 +58,7 @@ function RenderListLeft() {
         </a>
       </li>
     </ul>
+    </Row>
   );
 }
 

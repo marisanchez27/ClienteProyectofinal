@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, Tabs } from "antd";
 import { Redirect } from "react-router-dom";
-import MariLogo from "../../../assets/img/jpg/frikis.jpg";
+import MariLogo from "../../../assets/img/png/LOGOFREAKY.png";
 import RegisterForm from "../../../components/Admin/RegisterForm";
 import LoginForm from "../../../components/Admin/LoginForm";
 import { getAccessTokenApi } from "../../../api/auth";
@@ -19,7 +19,9 @@ export default function SignIn() {
     <Layout className="sign-in">
       <Content className="sign-in__content">
         <h1 className="sign-in__content-logo">
-          <img src={MariLogo} alt="Mari Luz Sanchez Reyes" />
+          <a href="#/">
+          <img src={MariLogo} alt="Mari Luz Sanchez Reyes"/>
+          </a>
         </h1>
         <div className="sign-in__content-tabs">
           <Tabs type="card">

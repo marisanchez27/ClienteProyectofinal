@@ -9,7 +9,7 @@ export default function Home(){
     return(
         <>
       <Helmet>
-        <title>Cosas-Frikis</title>
+        <title>Freaky-Sales</title>
         <meta
           name="description"
           content="Home | Tienda Online"

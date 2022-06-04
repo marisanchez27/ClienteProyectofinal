@@ -26,8 +26,8 @@ export default function Footer() {
             </Col>
           </Row>
           <Row className="footer__copyright">
-            <Col md={12}>© 2021 ALL RIGHTS RESERVED​</Col>
-            <Col md={12}>Mari Luz Sanchez | DESARROLLADORA WEB</Col>
+            <Col md={12}>© 2022 ALL RIGHTS RESERVED​</Col>
+            <Col md={12}>Mari Luz Sanchez-Alex Sanchez & Jeison Cano | FUTURE DEVELOPERS WEB</Col>
           </Row>
         </Col>
         <Col md={4} />

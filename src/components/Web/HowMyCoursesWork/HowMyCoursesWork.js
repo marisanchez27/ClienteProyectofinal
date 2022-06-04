@@ -17,11 +17,11 @@ export default function HowMyCoursesWork() {
       <Col lg={24} className="how-my-courses-work__title">
         <h2>¿Cómo funcionan?</h2>
         <h3>
-          Tienda Online Cosas-Frikis,
+          Tienda Online Freaky-Sales,
           encontraras descuentos y obsequios por tus compras en linea.
         </h3>
       </Col>
-
+              
       <Col lg={4} />
       <Col lg={16}>
         <Row className="row-cards">
@@ -29,7 +29,7 @@ export default function HowMyCoursesWork() {
             <CardInfo
               icon={<ClockCircleOutlined />}
               title="% Descuentos"
-              description="Descuentos del 10%, 30%, 50% en compras superiores o iguales $100.000 en referencias seleccionadas."
+              description="Descuentos dell 10%, 30%, 50% en compras superiores o iguales $100.000 en referencias seleccionadas."
             />
           </Col>
           <Col md={8}>

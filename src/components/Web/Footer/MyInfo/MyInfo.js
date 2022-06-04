@@ -1,5 +1,5 @@
 import React from "react";
-import MariLogo from "../../../../assets/img/jpg/frikis.jpg";
+import MariLogo from "../../../../assets/img/png/LOGOFREAKY.png";
 import SocialLink from "../../SocialLinks";
 
 import "./MyInfo.scss";
@@ -9,7 +9,7 @@ export default function MyInfo() {
     <div className="my-info">
       <img src={MariLogo} alt="Mari Luz Sanchez" />
       <h4>
-        Tienda Online Cosas-Frikis.com
+        Tienda Online Freaky-Sales.com
       </h4>
       <SocialLink />
     </div>

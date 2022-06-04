@@ -5,7 +5,7 @@ import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
 } from "@ant-design/icons";
-import MariLogo from "../../../assets/img/jpg/frikis.jpg";
+import MariLogo from "../../../assets/img/png/LOGOFREAKY.png";
 import { logout } from "../../../api/auth";
 
 import "./MenuTop.scss";

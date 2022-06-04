@@ -1,8 +1,78 @@
-@import "../../../scss/index.scss";
+// @import "../../../scss/index.scss";
+
+// .reviews-courses {
+//   margin-top: 100px;
+//   margin-bottom: 50px;
+
+//   &__title {
+//     text-align: center;
+//     margin-bottom: 20px;
+
+//     h2 {
+//       color: $font-light;
+//       font-size: 32px;
+//       font-weight: bold;
+//       text-transform: uppercase;
+//     }
+//   }
+
+//   .row-cards {
+//     .ant-col {
+//       padding:15px !important;
+//     }
+//   }
+   
+
+//   .container{
+//     margin-left: 100px;
+//     margin-left: 100px;
+//   }
+
+//   &__card {
+//     border: 0;
+//     background-color: transparent;
+    
+
+//     p {
+//       text-align: justify;
+//       font-size: 15px;
+//       color: $primary-color-dark;
+//     }
+
+//     .ant-card-meta {
+//       display: flex;
+//       align-items: center;
+//       line-height: 1;
+//       margin-top: 25px;
+      
+
+//       .ant-card-meta-avatar {
+//         .ant-avatar {
+//           width: 50px;
+//           height: 50px;
+//         }
+//       }
+
+//       .ant-card-meta-detail {
+//         .ant-card-meta-title {
+//           color: $primary-color-light;
+//         }
+
+//         .ant-card-meta-description {
+//           color: $primary-color-dark;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+@import "../../../index.scss";
 
 .reviews-courses {
   margin-top: 100px;
   margin-bottom: 50px;
+  
 
   &__title {
     text-align: center;
@@ -14,46 +84,73 @@
       font-weight: bold;
       text-transform: uppercase;
     }
+
+    h3 {
+      color: $primary-color-light;
+    }
   }
 
   .row-cards {
     .ant-col {
-      padding:15px !important;
+      padding: 15px !important;
+      width: 340px;
+     
+      
     }
   }
 
   &__card {
     border: 0;
-    background-color: transparent;
+    background-color: $background-dark-light-web;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
 
-    p {
-      text-align: justify;
+       p {
+      text-align: center;
       font-size: 15px;
       color: $primary-color-dark;
     }
 
     .ant-card-meta {
+     
+      width: 220px;
       display: flex;
       align-items: center;
       line-height: 1;
       margin-top: 25px;
+      
+    }
+    
 
-      .ant-card-meta-avatar {
-        .ant-avatar {
-          width: 50px;
-          height: 50px;
-        }
+    .ant-card-meta-avatar {
+      .ant-avatar {
+        margin-bottom: 50px;
+        width: 50px;
+        height: 50px;
       }
+    }
 
-      .ant-card-meta-detail {
-        .ant-card-meta-title {
-          color: $primary-color-light;
-        }
+    .anticon {
+      font-size: 45px;
+      margin-bottom: 20px;
+      color: $primary-color-light;
+    }
 
-        .ant-card-meta-description {
-          color: $primary-color-dark;
-        }
+    .ant-card-meta-detail {
+      .ant-card-meta-title {
+        color: $primary-color-light;
+        font-size: 13px;
+        font-weight: bold;
+        
+      }
+      .ant-card-meta-description {
+        color: $primary-color-dark;
       }
     }
   }
 }
+

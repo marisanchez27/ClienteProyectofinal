@@ -36,7 +36,8 @@ export default function LoginForm() {
         message: "Login correcto.",
       });
 
-      window.location.href = "#/admin";
+      //window.location.href = "#/admin";
+      window.location.href = "/admin";
     }
   };
 
